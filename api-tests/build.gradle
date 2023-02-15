@@ -1,0 +1,19 @@
+plugins {
+    id 'java-library'
+}
+
+group 'org.faska'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation project(":services")
+    testImplementation "org.assertj:assertj-core:${assertjVersion}"
+}
+
+test {
+    useTestNG()
+}

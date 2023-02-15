@@ -1,0 +1,11 @@
+#IDEA
+.idea/
+target/
+*.iml
+
+#Others
+[Bb]uild/
+.allure/
+.gradle
+allure-results/
+allure-report/
